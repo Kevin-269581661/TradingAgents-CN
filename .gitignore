@@ -3,6 +3,7 @@ env/
 venv/
 env-py310/
 .venv/
+.dev/
 __pycache__/
 *.py[cod]
 *.pyd

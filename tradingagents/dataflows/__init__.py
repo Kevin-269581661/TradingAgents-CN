@@ -1,3 +1,8 @@
+# AKShare 旧接口名兼容（需在其他 dataflows 模块调用 akshare 之前生效）
+from tradingagents.akshare_compat import ensure_akshare_compat
+
+ensure_akshare_compat()
+
 # 导入基础模块
 # Finnhub 工具（支持新旧路径）
 try:
